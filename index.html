@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ecommerce</title>
+</head>
+<body>
+    <header>
+        <div id="descuentos"><p>20% de descuento en todos los productos!</p></div>
+        <div id="titulo">
+            <img height="60px" src="img/OBJECTS.png">
+            <h2>Nombre Tienda</h2> 
+        </div>
+    </header>
+    <main>
+    <form action="" method="" class="super">
+        <label id="titulo-forms">Añadí tu super!</label>
+        <p>Agregá tu personaje favorito completando las opciones</p>
+        <section id="columnas">
+        <section id="columna1">
+            <div id="nombre-super">
+                <input type="text" name="nombre" id="form-super">
+            </div> 
+            <div id="fecha-super">
+                <input type="date" name="fecha" id="form-super">
+            </div>
+            <textarea id="form-super" placeholder="Descripción"></textarea>
+        </section>
+        <section id="columna2">
+            <div id="especies"></div>
+            <select  id="form-super">
+                <option value="selec" id="form-super" disabled selected hidden>Especie</option>
+                <option>Alienígena</option>
+                <option>Animal</option>
+               <option>Unknown</option>
+            </select>
+            <div id="foto-super">
+                <label id="foto">
+                    <input type="file" name="imagen" id="foto">
+                </label>
+            </div>
+            <fieldset id="checkbox">
+                <label id="titulo-poderes">Poderes</label>
+                <div>
+                    <input type="checkbox" name="poderes" id="volar">
+                    <label id="volar">Volar</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="poderes" id="int">
+                    <label id="int">Superinteligencia</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="poderes" id="rayo">
+                    <label id="rayo">Vista rayo láser</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="poderes" id="billetera">
+                    <label id="billetera">Billetera gorda</label>
+                </div>
+            </fieldset>
+            <fieldset id="radius">
+                <label id="titulo-personaje">Tipo de personaje</label>
+                <div>
+                    <input type="radio" name="tipo" id="heroe">
+                    <label id="heroe">Héroe / Heroina</label>
+                </div>
+                <div>
+                    <input type="radio" name="tipo" id="villano">
+                    <label id="villano">Villano / Villana</label>
+                </div>
+            </fieldset>
+        </section>
+        </section>
+        <div id="boton-añadir">
+            <button type="submit">Añadir</button>
+        </div>
+    </form>
+    </main>
+    <footer>
+        <p> Todos los derechos reservados a FRONT END 1 </p>
+    </footer>
+</body>
+</html>
